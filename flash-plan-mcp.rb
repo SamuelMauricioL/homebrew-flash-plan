@@ -1,9 +1,9 @@
 class FlashPlanMcp < Formula
   desc "MCP server for FlashPlan - AI agent access to FlashPlan data"
   homepage "https://github.com/SamuelMauricioL/flash-plan-releases"
-  version "1.4.0"
-  url "https://github.com/SamuelMauricioL/flash-plan-releases/releases/download/v1.4.0/flash-plan-mcp-darwin-arm64.tar.gz"
-  sha256 "312d7eb1c5458f04fe2324031ae5a43dc2641804b6e15ca36e9184ba3f04c376"
+  version "1.4.1"
+  url "https://github.com/SamuelMauricioL/flash-plan-releases/releases/download/v1.4.1/flash-plan-mcp-darwin-arm64.tar.gz"
+  sha256 "4aed54a3139014d046393b6d5b7418a774556471d4b1b3def4a7bb91b0c9f0c9"
 
   def install
     bin.install "flash-plan-mcp-darwin-arm64" => "flash-plan-mcp"
