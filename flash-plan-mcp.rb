@@ -3,7 +3,7 @@ class FlashPlanMcp < Formula
   homepage "https://github.com/SamuelMauricioL/flash-plan-releases"
   version "1.9.0"
   url "https://github.com/SamuelMauricioL/flash-plan-releases/releases/download/v1.9.0/flash-plan-mcp-darwin-arm64.tar.gz"
-  sha256 "49401bb71d0a046e5471fa3d112fc38a55f1d203e6eda730fa3b595d4b6f16ac"
+  sha256 "9f2dfc21aa69a34e4c9d9ba162c95bf58c4a3ac6a95c00f0f2fa6f09e0c6af0e"
 
   def install
     bin.install "flash-plan-mcp-darwin-arm64" => "flash-plan-mcp"
